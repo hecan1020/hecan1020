@@ -7,7 +7,7 @@ export const zhNavbar = navbar([
 		text: "随笔",
 		icon: "note",
 		children: [
-			"/随笔/面试记录/"
+			"/note/interview/"
 		],
 	},
 	// {

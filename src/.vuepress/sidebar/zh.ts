@@ -12,16 +12,16 @@ export const zhSidebar = sidebar({
 		// 	link: "demo/",
 		// 	children: "structure",
 		// },
-		{
-			text: "文章",
-			icon: "note",
-			prefix: "posts/",
-			children: "structure",
-		},
+		// {
+		// 	text: "文章",
+		// 	icon: "note",
+		// 	prefix: "posts/",
+		// 	children: "structure",
+		// },
 		{
 			text: "随笔",
 			icon: "note",
-			prefix: "随笔/",
+			prefix: "note/",
 			children: "structure",
 		},
 	],
