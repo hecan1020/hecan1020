@@ -18,5 +18,11 @@ export const zhSidebar = sidebar({
 			prefix: "posts/",
 			children: "structure",
 		},
+		{
+			text: "随笔",
+			icon: "note",
+			prefix: "随笔/",
+			children: "structure",
+		},
 	],
 });
