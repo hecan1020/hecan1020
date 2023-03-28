@@ -16,7 +16,7 @@ export default hopeTheme({
 	iconAssets: "iconfont",
 	logo: "",
 	repo: "hecan1020",
-	docsDir: "src",
+	docsDir: "doc",
 	editLink: false,
 	blog: {
 		medias: {
