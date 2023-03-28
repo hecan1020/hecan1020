@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 
 
 
@@ -32,8 +31,7 @@ export default defineUserConfig({
 					formatter: "标签：$content",
 				},
 			],
-		}),
-		autoCatalogPlugin()
+		})
 	],
 
 });
