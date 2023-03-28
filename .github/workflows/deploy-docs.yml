@@ -20,19 +20,6 @@ jobs:
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
-      - name: Install and Build 
-        run: |
-          npm install
-          npm run docs:build
-          npm run docs:dev
-      - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-
-
-
-
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages

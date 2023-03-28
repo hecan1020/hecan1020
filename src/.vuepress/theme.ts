@@ -8,10 +8,10 @@ const MR_HOPE_AVATAR =
 
 export default hopeTheme({
 	pure: true,
-	hostname: "https://mister-hope.github.io",
+	hostname: "https://hecan1020.github.io",
 	author: {
 		name: "白米粥",
-		url: "https://mrhope.site",
+		url: "https://github.com/hecan1020",
 	},
 	iconAssets: "iconfont",
 	logo: "",
@@ -36,7 +36,7 @@ export default hopeTheme({
 			footer: "",
 			displayFooter: true,
 			blog: {
-				description: "一个后端JAVA开发崽",
+				description: "一个后台JAVA崽",
 			},
 			// page meta
 			metaLocales: {
@@ -62,6 +62,12 @@ export default hopeTheme({
 			category: "Announcements",
 			categoryId: "DIC_kwDOJOfP7s4CVJ_x",
 		},
+		feed: {
+			atom: true,
+			json: true,
+			rss: true,
+		},
+
 
 		// all features are enabled for demo, only preserve features you need here
 		mdEnhance: {
