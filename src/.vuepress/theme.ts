@@ -62,11 +62,11 @@ export default hopeTheme({
 			category: "Announcements",
 			categoryId: "DIC_kwDOJOfP7s4CVJ_x",
 		},
-		feed: {
-			atom: true,
-			json: true,
-			rss: true,
-		},
+		// feed: {
+		// 	atom: true,
+		// 	json: true,
+		// 	rss: true,
+		// },
 
 
 		// all features are enabled for demo, only preserve features you need here
