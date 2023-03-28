@@ -7,7 +7,7 @@ import { commentPlugin } from "vuepress-plugin-comment2";
 
 
 export default defineUserConfig({
-	base: "/hecan1020/",
+	base: "/",
 	locales: {
 		"/": {
 			lang: "zh-CN",
