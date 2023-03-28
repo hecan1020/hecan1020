@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
-import { commentPlugin } from "vuepress-plugin-comment2";
+
 
 
 
@@ -33,14 +33,7 @@ export default defineUserConfig({
 				},
 			],
 		}),
-		autoCatalogPlugin(),
-		commentPlugin({
-		      provider: "Giscus",
-		      repo: "hecan1020/blog_comment",
-		      repoId: "R_kgDOJOfP7g",
-		      category: "Announcements",
-		      categoryId: "DIC_kwDOJOfP7s4CVJ_x",
-		    }),
+		autoCatalogPlugin()
 	],
 
 });
