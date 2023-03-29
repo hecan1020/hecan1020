@@ -46,6 +46,7 @@ jobs:
 
   deploy-gitee:
     runs-on: ubuntu-latest
+    needs: deploy-gh-pages
     steps:
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
