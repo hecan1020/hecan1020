@@ -43,8 +43,8 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-jobs:
-  gitee-deploy:
+
+  deploy-gitee:
     runs-on: ubuntu-latest
     steps:
       - name: Build Gitee Pages
