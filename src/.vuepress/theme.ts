@@ -23,7 +23,7 @@ export default hopeTheme({
 			// BiliBili: "https://example.com",
 			Email: "mailto:1020205116@qq.com",
 			Gitee: "https://gitee.com/hecan1020",
-			GitHub: "https://example.com",
+			GitHub: "https://github.com/hecan1020",
 			// QQ: "https://example.com",
 			// Wechat: "https://example.com",
 		},
