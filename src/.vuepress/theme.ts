@@ -57,7 +57,7 @@ export default hopeTheme({
 
 	plugins: {
 		blog: {
-			excerptLength: 0,
+			// excerptLength: 0,
 		},
 		comment: {
 			provider: "Giscus",

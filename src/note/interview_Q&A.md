@@ -5,7 +5,7 @@ category: ["面试"]
 star: true
 ---
 
-# 面试题收集
+<!-- more -->
 ## Java基础
 ### 1、Java是什么？JDK和JRE有什么区别？
 ```
