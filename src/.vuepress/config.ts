@@ -10,7 +10,7 @@ export default defineUserConfig({
 	locales: {
 		"/": {
 			lang: "zh-CN",
-			title: ""
+			title: "白米粥"
 		},
 	},
 

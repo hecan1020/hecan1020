@@ -3,12 +3,13 @@ home: true
 layout: BlogHome
 icon: home
 title: '主页'
-heroImage: ''
-heroText: ' '
-tagline: ' '
+hero: false
+# heroImage: ''
+# heroText: ' '
+# tagline: ' '
 # Special thank to @mo7
-bgImage: https://api.kdcc.cn/
-heroFullScreen: false
+# bgImage: https://api.kdcc.cn/
+# heroFullScreen: false
 projects:
   # - icon: project
   #   name: 项目名称
