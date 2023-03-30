@@ -9,9 +9,9 @@ export default defineUserConfig({
 	base: "/",
 	locales: {
 		"/": {
-		      lang: "zh-CN",
-		      title: "白米粥"
-		    },
+			lang: "zh-CN",
+			title: ""
+		},
 	},
 
 	theme,

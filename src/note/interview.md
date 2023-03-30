@@ -1,7 +1,6 @@
 ---
 title: 面试记录
 author: 白米粥
-date: 2023-03-30
 category: ["面试"]
 ---
 
