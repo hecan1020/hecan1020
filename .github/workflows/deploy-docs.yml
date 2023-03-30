@@ -38,7 +38,7 @@ jobs:
         with:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
+          # 部署目录为 VuePress 的默认 输出目录
           build_dir: src/.vuepress/dist
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
@@ -54,7 +54,7 @@ jobs:
           # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
-          # 注意替换为你的 GitHub 源仓库地址
+          # 注意替换为你 的 GitHub 源仓库地址
           source-repo: git@github.com:hecan1020/hecan1020.github.io.git
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:hecan1020/hecan1020.git
