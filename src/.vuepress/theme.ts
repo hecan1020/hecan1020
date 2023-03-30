@@ -15,8 +15,9 @@ export default hopeTheme({
 	},
 	iconAssets: "iconfont",
 	logo: "",
+	copyright: false,
 	repo: "hecan1020",
-	docsDir: "doc",
+	docsDir: "src",
 	editLink: false,
 	blog: {
 		medias: {
@@ -26,7 +27,7 @@ export default hopeTheme({
 			GitHub: "https://github.com/hecan1020",
 			// QQ: "https://example.com",
 			// Wechat: "https://example.com",
-		},
+		}
 	},
 	locales: {
 		"/": {
@@ -34,7 +35,7 @@ export default hopeTheme({
 			navbar: zhNavbar,
 			// sidebar
 			sidebar: zhSidebar,
-			footer: "",
+			footer: 'Theme by <a href="https://theme-hope.vuejs.press">vuepress-theme-hope</a>',
 			displayFooter: true,
 			blog: {
 				description: "一个后台JAVA崽",
@@ -55,7 +56,9 @@ export default hopeTheme({
 	},
 
 	plugins: {
-		blog: true,
+		blog: {
+			excerptLength: 0,
+		},
 		comment: {
 			provider: "Giscus",
 			repo: "hecan1020/blog_comment",

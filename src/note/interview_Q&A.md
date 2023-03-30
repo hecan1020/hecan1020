@@ -1,7 +1,10 @@
 ---
 title: 面试题收集
+author: 白米粥
+data: 2023-03-30
 category: ["面试"]
 ---
+
 # 面试题收集
 ## Java基础
 ### 1、Java是什么？JDK和JRE有什么区别？

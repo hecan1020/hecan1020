@@ -2,18 +2,20 @@
 home: true
 layout: BlogHome
 icon: home
-title: "主页"
-hero: false
-breadcrumb: true
-breadcrumbIcon: true
-tagline: 
+title: '主页'
+heroImage: ''
+heroText: ' '
+tagline: ' '
+# Special thank to @mo7
+bgImage: https://api.kdcc.cn/
+heroFullScreen: false
 projects:
   # - icon: project
   #   name: 项目名称
   #   desc: 项目详细描述
   #   link: https://你的项目链接
 
-footer: "<a href='https://theme-hope.vuejs.press/'>VuePress Theme Hope</a>"
+footer: 'Theme by <a href="https://theme-hope.vuejs.press">vuepress-theme-hope</a>'
 copyright: false
 ---
 <!-- 
