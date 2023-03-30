@@ -1,8 +1,8 @@
 ---
 title: 面试记录
-icon: anonymous
 category: ["面试"]
 ---
+# 面试记录
 ## 智网科技
 
 日期：2023.03.28
