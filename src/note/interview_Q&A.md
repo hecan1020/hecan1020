@@ -2,6 +2,7 @@
 title: 面试题收集
 author: 白米粥
 category: ["面试"]
+star: true
 ---
 
 # 面试题收集
