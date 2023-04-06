@@ -64,11 +64,11 @@ jobs:
         uses: shanghaobo/github-branch-gitee@v1.0.0
         with:
           # Github 仓库，例如 username/repo
-          github_repo: git@github.com:hecan1020/hecan1020.github.io.git
+          github_repo: hecan1020/hecan1020.github.io.git
           # Github 分支，例如 main
           github_branch: gh-pages
           # Gitee 仓库，例如 username/repo
-          gitee_repo: git@gitee.com:hecan1020/hecan1020.git
+          gitee_repo: hecan1020/hecan1020.git
           # Gitee 分支，例如 master
           gitee_branch: gh-pages
           # Gitee 用户名，用于登录。
