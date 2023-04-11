@@ -26,7 +26,7 @@ star: true
 
 [Docker-compose官方资料](https://docs.docker.com/compose/)
 
-[portainer官网](https://www.portainer.io/)
+[Portainer官网](https://www.portainer.io/)
 
 [Portainer安装文档](https://docs.portainer.io/start/install-ce/server/docker/linux)
 
@@ -503,7 +503,7 @@ docker compose version
 
 ## Portainer可视化工具
 
-[portainer官网](https://www.portainer.io/)
+[Portainer官网](https://www.portainer.io/)
 
 [Portainer安装文档](https://docs.portainer.io/start/install-ce/server/docker/linux)
 
