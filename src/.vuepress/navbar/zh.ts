@@ -6,9 +6,12 @@ export const zhNavbar = navbar([
 	{
 		text: "随笔",
 		icon: "note",
-		children: [
-			"/note/interview/"
-		],
+		link: "/note/"
+	},
+	{
+		text: "学习",
+		icon: "study",
+		link: "/code/"
 	},
 	// {
 	//   text: "Redis",

@@ -1,8 +1,11 @@
 import { sidebar } from "vuepress-theme-hope";
+import { note } from "./note.js";
+import { code } from "./code.js";
+
 
 export const zhSidebar = sidebar({
 	"/": [
-		  "",
+		"",
 		// "intro",
 		// "slides",
 		// {
@@ -18,11 +21,14 @@ export const zhSidebar = sidebar({
 		// 	prefix: "posts/",
 		// 	children: "structure",
 		// },
-		{
-			text: "随笔",
-			icon: "note",
-			prefix: "note/",
-			children: "structure",
-		},
+
+		// {
+		// 	text: "学习笔记",
+		// 	icon: "note",
+		// 	prefix: "Java学习/",
+		// 	children: "structure",
+		// },
 	],
+	"/note/": note,
+	"/code/": code,
 });

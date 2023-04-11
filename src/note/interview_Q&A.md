@@ -1,12 +1,10 @@
 ---
-title: 面试题收集-Java基础
 author: 白米粥
 category: ["面试"]
 star: true
 ---
-
+# 面试题收集-Java基础
 <!-- more -->
-
 ## 1、Java是什么？JDK和JRE有什么区别？
 ```
 Java是一种广泛使用的编程语言和计算机平台，被广泛用于开发Web应用、桌面应用、移动
