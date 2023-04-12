@@ -1,8 +1,6 @@
 ---
 author: 白米粥
-category: ["Java","Rabbit","MQ"]
-star: true
-
+category: ["Java","RabbitMQ"]
 ---
 
 <!-- more -->

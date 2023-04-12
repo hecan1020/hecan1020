@@ -1,7 +1,6 @@
 ---
 author: 白米粥
 category: ["Java","Docker"]
-star: true
 ---
 
 <!-- more -->

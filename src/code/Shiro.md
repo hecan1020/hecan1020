@@ -1,6 +1,6 @@
 ---
 author: 白米粥
-category: ["nginx"]
+category: ["shiro"]
 
 ---
 
